@@ -1,8 +1,8 @@
 import Layout from '../../components/Layout';
 import Link from 'next/link';
-import dbConnect from '../../lib/dbConnect';
-import Industry from '../../models/Industry';
-import Company from '../../models/Company';
+import dbConnect from '../lib/dbConnect';
+import Industry from '../models/Industry';
+import Company from '../models/Company';
 
 export default function IndustriesPage({ industries }) {
   return (
